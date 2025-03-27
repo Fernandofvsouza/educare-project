@@ -1,0 +1,77 @@
+header{
+    background-color: var(--cor5);
+    width: 100%;
+    height: 124px;
+    padding: 36px 0;  
+}
+
+.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interface .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface .logo h6{
+    font-family: var(--fontelogo);
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+.interface .menu-desktop{
+    display: flex;
+    align-items: center;
+}
+
+.interface .menu-desktop .links nav ul li{
+    display: inline-block;
+    margin-right: 56px;
+
+    transition: .5s;
+    
+}
+
+.interface .menu-desktop .links nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+    
+
+}
+
+.interface .menu-desktop .links nav ul li:hover{
+    transform: scale(1.05);
+}
+
+
+
+.interface .menu-desktop .menu-btn button{
+    width: 150px;
+    height: 39px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background: var(--cor2);
+
+    transition: .5s;
+    cursor: pointer;
+
+
+}
+
+.interface .menu-desktop .menu-btn button:hover{
+    transform: scale(1.05);
+    background-color: var(--cor1);
+
+}

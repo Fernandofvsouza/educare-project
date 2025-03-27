@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor1: #682C0E;
+    --cor2: #C24914;
+    --cor3: #FC8621;
+    --cor4: #DAC0A3;
+    --cor5: #F9E0AE;
+    --cor6: #EADBC8;
+    --fontelogo:"Jim Nightshade";
+    --fontemain:"Poppins";
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-color: #fff;
+    font-family: var(--fontemain);
+}
+
+.interface{
+    margin: 0 100px;
+    max-width: 1280px;
+    padding: 0 4%;
+}
