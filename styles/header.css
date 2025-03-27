@@ -5,7 +5,7 @@ header{
     padding: 36px 0;  
 }
 
-.interface{
+header .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1,0 +1,28 @@
+.learning{
+    margin-top: 234px;
+}
+
+.learning .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.learning .interface .learning-txt h2{
+    color: #000;
+    font-size: 48px;           
+    font-weight: 600;    
+}
+
+.learning .interface .learning-txt h2 span{
+    display: block;
+}
+
+.learning .interface .learning-img img{
+    width: 439px;
+    height: 292px;
+    padding-left: 60px;
+    
+}

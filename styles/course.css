@@ -1,0 +1,43 @@
+.course{
+    margin-top: 235px;
+}
+
+.course .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.course .interface .course-txt h2{
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.course .interface .course-txt h2 span{
+    display: block;
+}
+
+.course .interface .course-txt ul{
+    padding-left: 20px;
+}
+
+.course .interface .course-txt ul li{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.course .interface .course-img img{
+    width: 520px;
+    height: 380px;
+    
+}
